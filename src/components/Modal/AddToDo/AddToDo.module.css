@@ -1,0 +1,20 @@
+.Addbtn {
+background:    #00ff00;
+width: 10%;
+border-radius: 5px;
+border: 1px solid black;
+padding:       8px 20px;
+color:         #000000;
+display:       block;
+font:          normal bold 1.2em "Calibri", sans-serif;
+text-align:    center;
+margin:        30px auto;
+cursor:        pointer;
+}
+
+@media (max-width:500px) {
+    .Addbtn {
+        padding: 8px 35px 8px 30px;
+        font-size: 1em;
+    }
+}

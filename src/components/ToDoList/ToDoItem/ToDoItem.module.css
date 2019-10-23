@@ -1,0 +1,17 @@
+.ItemContainer {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.ItemContainer p {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.ItemContainer span {
+    float: right;
+    font-size:1.6em;
+    margin: 8px 5px;
+    cursor: pointer;
+}
